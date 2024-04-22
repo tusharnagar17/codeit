@@ -13,6 +13,7 @@ export default function HomePage() {
     <NavBar />
     <Home />
     <About />
+    <br />
     <Services />
     {/* <Projects />
     <Contact /> */}

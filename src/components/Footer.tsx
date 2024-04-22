@@ -19,7 +19,6 @@ const Footer = () => {
             </div>
             <div>
                 <div className='items-center'>
-                    
                     <ContactBtn />
                 </div>
             </div>
