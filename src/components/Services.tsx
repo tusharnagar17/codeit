@@ -14,7 +14,7 @@ const ServicesList: ServicesProps[]  = [
 
 const Services = () => {
     return (
-        <div className='max-w-6xl mx-auto'>
+        <div className='max-w-6xl mx-auto py-28'>
             <div className='text-center text-6xl font-bold my-8'>Our Services</div>
             <div className='md:flex md:justify-around'>
                 {ServicesList.map((service, ind)=> {

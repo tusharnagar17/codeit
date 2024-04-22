@@ -12,7 +12,7 @@ export default function ThemeChanger() {
         setMounted(true)
     }, [])
 
-    return <div className="ml-4 mt-1 text-xl">
+    return <div className="ml-4 mt-1 text-xl hover:text-sky-500 ">
         <button onClick={() => setTheme(theme == "dark" ? 'light' : "dark")}>{theme == 'dark' ? <FaMoon /> : <IoIosSunny />}</button>
     </div>
 }

@@ -4,7 +4,7 @@ import ContactBtn from './ContactBtn'
 
 const About = () => {
     return (
-        <div className='max-w-6xl mx-auto h-screen md:flex md:justify-around md:items-center'>
+        <div className='max-w-6xl mx-auto h-screen md:flex md:justify-around md:items-center border-b-[0.1px]'>
             <div className='max-w-3xl'>
                 <Image src="/about.jpg" alt='coding-images' width={500} height={800}
                 />
