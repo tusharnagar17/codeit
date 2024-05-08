@@ -31,9 +31,10 @@ const Services = () => {
     <div id="services-section" className="max-w-6xl mx-auto py-28 mt-20">
       <div className="text-center text-6xl font-bold my-8">Our Services</div>
       <div className="md:flex md:justify-around px-4">
-        {ServicesList.map((service, ind) => {
+        {ServicesList.map((service: ServicesProps, ind: number) => {
           return (
             <ServicesSection
+              key={ind}
               icon={service.icon}
               name={service.name}
               detail={service.detail}

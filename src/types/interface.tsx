@@ -1,5 +1,5 @@
 export interface ServicesProps {
-  icon: JSX.element;
+  icon: JSX.Element;
   name: String;
   detail: String;
 }
@@ -10,4 +10,10 @@ export interface ContactFormPros {
   phone: string;
   budget: string;
   description: string;
+}
+export interface projectDetailsProps {
+  name: string;
+  description: string;
+  techStack: string[];
+  imageLinks: string;
 }

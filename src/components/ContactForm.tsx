@@ -31,7 +31,7 @@ const ContactForm = () => {
 
   return (
     <div className="md:pl-10">
-      <div className="text-7xl text-wrap mx-10 font-bold px-4">
+      <div className="my-10 md:text-center text-7xl text-wrap font-bold px-4">
         Let connect<span className="text-sky-500">.</span>
       </div>
       <div className="mt-10 py-6 px-10 border-2 border-sky-200 rounded-2xl bg-gradient-to-br from-sky-300 to-indigo-400">

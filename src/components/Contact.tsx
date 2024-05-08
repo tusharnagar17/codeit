@@ -14,7 +14,7 @@ const Contact = () => {
           // width="500"
           // height="600"
           // allowfullscreen={true}
-          className="h-[600px] w-[400px] md:h-[700px] md:w-[600px] mx-auto"
+          className="h-[600px] w-[350px] md:h-[700px] md:w-[600px] mx-auto"
           loading="lazy"
           // referrerpolicy="no-referrer-when-downgrade"
         ></iframe>

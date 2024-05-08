@@ -8,5 +8,6 @@ export const userDetails = {
     instagram: "https://www.instagram.com/",
     x: "https://twitter.com/home",
     linkedin: "https://www.linkedin.com/feed/",
+    liveWebsite: "",
   },
 };
