@@ -8,17 +8,15 @@ import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
-import { themeColor } from "../../constants/theme";
-
 export default function HomePage() {
   return (
     <div className="dark:bg-slate-800">
       <NavBar />
       <Home />
       <About />
-      <br />
+
       <Services />
-      {/* <Projects /> */}
+      <Projects />
       <Contact />
       <Footer />
     </div>

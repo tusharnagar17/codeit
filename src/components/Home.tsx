@@ -4,7 +4,10 @@ import ContactBtn from "./ContactBtn";
 
 const Home = () => {
   return (
-    <div className="md:flex md:max-w-6xl mx-auto py-10 md:py-20 md:justify-between border-b-[0.1px]">
+    <div
+      id="home-section"
+      className="md:flex md:max-w-6xl mx-auto py-10 md:py-20 md:justify-between border-b-[0.1px]"
+    >
       <div className="max-w-2xl px-6 my-20 md:my-20 mx-4">
         <div className="text-7xl md:text-8xl text-wrap font-bold">
           Design<span className="text-sky-500">.</span> Develop

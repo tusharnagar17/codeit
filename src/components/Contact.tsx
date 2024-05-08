@@ -3,7 +3,10 @@ import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
-    <div className="md:flex md:gap-10 max-w-6xl mx-auto my-20 ">
+    <div
+      id="contact-section"
+      className="md:flex md:gap-10 max-w-6xl mx-auto my-20 "
+    >
       {/* Embedded Map */}
       <div className="">
         <iframe

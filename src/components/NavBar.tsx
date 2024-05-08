@@ -20,19 +20,19 @@ const NavBar = () => {
       <div className="">
         <div className="hidden md:flex list-none justify-around items-center">
           <li className="m-2 py-1 px-4 hover:underline decoration-2 decoration-sky-500 text-xl">
-            <a href="#Home">Home</a>
+            <a href="#home-section">Home</a>
           </li>
           <li className="m-2 py-1 px-4 hover:underline decoration-2 decoration-sky-500 text-xl">
-            <a href="#About">About</a>
+            <a href="#about-section">About</a>
           </li>
           <li className="m-2 py-1 px-4 hover:underline decoration-2 decoration-sky-500 text-xl">
-            <a href="#Services">Services</a>
+            <a href="#services-section">Services</a>
           </li>
           <li className="m-2 py-1 px-4 hover:underline decoration-2 decoration-sky-500 text-xl">
-            <a href="#Projects">Projects</a>
+            <a href="#projects-section">Projects</a>
           </li>
           <li className="m-2 py-1 px-4 hover:underline decoration-2 decoration-sky-500 text-xl">
-            <a href="#Contact">Contact</a>
+            <a href="#contact-section">Contact</a>
           </li>
           <ThemeChanger />
         </div>

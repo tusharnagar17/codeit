@@ -40,31 +40,31 @@ const HamburgerMenu = () => {
         <div className="absolute top-full -left-14 mt-2 bg-white border border-gray-200 rounded-md shadow-lg">
           {/* Your menu items here */}
           <a
-            href="#Home"
+            href="#home-section"
             className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
           >
             Home
           </a>
           <a
-            href="#About"
+            href="#about-section"
             className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
           >
             About
           </a>
           <a
-            href="#Services"
+            href="#services-section"
             className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
           >
             Services
           </a>
           <a
-            href="#Projects"
+            href="#projects-section"
             className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
           >
             Projects
           </a>
           <a
-            href="#Services"
+            href="#contact-section"
             className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
           >
             Contact
