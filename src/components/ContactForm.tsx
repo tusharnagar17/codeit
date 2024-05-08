@@ -16,7 +16,7 @@ const ContactForm = () => {
     >
   ) => {
     const { name, value } = e.target;
-    console.log(name, "==", value);
+    // console.log(name, "==", value);
     setFormData((prevData) => ({
       ...prevData,
       [name]: value,
@@ -26,7 +26,7 @@ const ContactForm = () => {
   const submitForm = (e: React.FormEvent) => {
     e.preventDefault();
     // add service to submit form
-    console.log("Submit Form Clicked!");
+    // console.log("Submit Form Clicked!");
   };
 
   return (

@@ -22,7 +22,7 @@ const Projects = () => {
 };
 
 const ProjectSection = ({ detail }: { detail: projectDetailsProps }) => {
-  console.log("details", detail);
+  // console.log("details", detail);
   return (
     <div
       className="max-w-2xl my-2 rounded-3xl p-2
@@ -45,8 +45,11 @@ const ProjectSection = ({ detail }: { detail: projectDetailsProps }) => {
         <div className="flex gap-4 items-center mt-4 px-2 font-semibold">
           Tech Stack:
           <div className="flex gap-2 flex-wrap text-wrap">
-            {detail.techStack.map((item: string) => (
-              <div className="rounded-full px-2 py-1 bg-sky-200 dark:bg-slate-700">
+            {detail.techStack.map((item: string, ind) => (
+              <div
+                key={ind}
+                className="rounded-full px-2 py-1 bg-sky-200 dark:bg-slate-700"
+              >
                 {item}
               </div>
             ))}
