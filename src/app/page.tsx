@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import NavBar from "@/components/NavBar";
 import ThemeChanger from "@/components/ThemeChanger";
 import Home from "@/components/Home";
@@ -8,15 +8,19 @@ import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
+import { themeColor } from "../../constants/theme";
+
 export default function HomePage() {
-  return <div className="">
-    <NavBar />
-    <Home />
-    <About />
-    <br />
-    <Services />
-    {/* <Projects />
-    <Contact /> */}
-    <Footer />
-  </div>
+  return (
+    <div className="dark:bg-slate-800">
+      <NavBar />
+      <Home />
+      <About />
+      <br />
+      <Services />
+      {/* <Projects /> */}
+      <Contact />
+      <Footer />
+    </div>
+  );
 }
